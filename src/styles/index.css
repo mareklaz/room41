@@ -1,0 +1,27 @@
+.logo-text {
+	font-family: 'Berkshire Swash', cursive;
+}
+
+.hero-bg {
+	background: url('../assets/hero-bg.webp') no-repeat center center/cover;
+}
+
+.line-before {
+	position: relative;
+	display: inline-block;
+}
+
+.line-before::before {
+	content: '';
+	position: absolute;
+	left: -72px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 72px;
+	height: 2px;
+	background-color: #fbd784;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
