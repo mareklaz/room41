@@ -1,49 +1,17 @@
 ---
+import Navbar from '../components/Navbar.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title='Welcome to Astro.'>
+	<Navbar />
 	<div class='bg-dark'>
 		<header class='bg-hero-pattern bg-cover bg-no-repeat
-			h-screen flex flex-col'>
-			<div class='mx-auto h-24 w-full max-w-7xl flex items-center text-white'>
-				<div>
-					<span class='logo-text text-3xl'>Room41</span>
-				</div>
-				<div class='flex flex-1 justify-center gap-16'>
-					<a
-						href=''
-						class='hover:bg-gray-50 transition-colors duration-300 ease-in-out px-4 hover:text-dark rounded-lg py-2'
-						>Nosotros</a
-					>
-					<a
-						href=''
-						class='hover:bg-gray-50 transition-colors duration-300 ease-in-out px-4 hover:text-dark rounded-lg py-2'
-						>Eventos</a
-					>
-					<a
-						href=''
-						class='hover:bg-gray-50 transition-colors duration-300 ease-in-out px-4 hover:text-dark rounded-lg py-2'
-						>Menú</a
-					>
-					<a
-						href=''
-						class='hover:bg-gray-50 transition-colors duration-300 ease-in-out px-4 hover:text-dark rounded-lg py-2'
-						>Contacto</a
-					>
-				</div>
-				<div>
-					<a
-						href=''
-						class='bg-accent text-dark font-semibold px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors duration-300 ease-in-out'
-						>Reservar</a
-					>
-				</div>
-			</div>
+		h-screen flex flex-col'>
 			<div class='flex grow flex-col items-center justify-center p-24 text-white'>
 				<div class='flex flex-col items-start'>
-					<span class='line-before px-4 ml-[72px] text-accent uppercase font-semibold'>ROOM41 MADRID BAR-CAFE</span>
-					<h1 class='logo-text text-7xl my-6'>Descubre nuestros eventos</h1>
+					<span class='text-accent uppercase font-semibold l'>ROOM41 MADRID BAR-CAFE</span>
+					<h1 class='logo-text text-7xl my-6 tracking-wide'>Descubre nuestros eventos</h1>
 				</div>
 			</div>
 			<a
@@ -51,7 +19,7 @@ import Layout from '../layouts/Layout.astro';
 				class='flex flex-row gap-2 e px-6 py-3 justify-center'>
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
-					class='text-white icon icon-tabler icon-tabler-circle-arrow-down animate-bounce'
+					class='text-white z-10 icon icon-tabler icon-tabler-circle-arrow-down animate-bounce'
 					width='36'
 					height='36'
 					viewBox='0 0 24 24'
@@ -70,7 +38,7 @@ import Layout from '../layouts/Layout.astro';
 			</a>
 		</header>
 		<main class='mx-auto max-w-7xl flex items-center text-white'>
-			<section class='py-50'>
+			<section class='my-20'>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, soluta?</p>
 			</section>
 		</main>

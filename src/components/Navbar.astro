@@ -1,0 +1,106 @@
+<!-- Navbar container -->
+<div class='text-white navbar-bg fixed top-0 w-full'>
+	<div class='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
+		<!-- Mobile menu button -->
+		<div class='p-4 flex justify-between h-20 items-center sm:hidden'>
+			<div class='logo-text text-2xl'>Room 41</div>
+			<button
+				id='mobile-menu-button'
+				class='mobile-menu-button'>
+				<svg
+					class='w-8 h-8'
+					fill='none'
+					stroke='currentColor'
+					viewBox='0 0 24 24'
+					xmlns='http://www.w3.org/2000/svg'
+					><path
+						stroke-linecap='round'
+						stroke-linejoin='round'
+						stroke-width='2'
+						d='M4 6h16M4 12h16m-7 6h7'
+					></path></svg
+				>
+			</button>
+		</div>
+		<!-- Mobile Menu -->
+		<div class='mobile-menu hidden w-full h-screen bg-gray-900 text-center fixed top-0 left-0 z-9999'>
+			<button
+				id='close-menu-button'
+				class='close-menu p-8 text-white'>
+				<svg
+					class='w-8 h-8'
+					fill='none'
+					stroke='currentColor'
+					viewBox='0 0 24 24'
+					xmlns='http://www.w3.org/2000/svg'
+					><path
+						stroke-linecap='round'
+						stroke-linejoin='round'
+						stroke-width='2'
+						d='M6 18L18 6M6 6l12 12'
+					></path></svg
+				>
+			</button>
+			<div class='flex flex-col justify-center text-white gap-y-8'>
+				<a
+					href=''
+					class='hover:bg-gray-50 inline mobile-menu-link transition-colors duration-300 ease-in-out px-4 hover:text-dark rounded-lg py-2'
+					>Nosotros</a
+				>
+				<a
+					href=''
+					class='hover:bg-gray-50 inline mobile-menu-link transition-colors duration-300 ease-in-out px-4 hover:text-dark rounded-lg py-2'
+					>Eventos</a
+				>
+				<a
+					href=''
+					class='hover:bg-gray-50 inline mobile-menu-link transition-colors duration-300 ease-in-out px-4 hover:text-dark rounded-lg py-2'
+					>Menú</a
+				>
+				<a
+					href=''
+					class='hover:bg-gray-50 inline mobile-menu-link transition-colors duration-300 ease-in-out px-4 hover:text-dark rounded-lg py-2'
+					>Contacto</a
+				>
+				<a
+					href=''
+					class='hover:bg-gray-50 mobile-menu-link text-orange-400 inline transition-colors duration-300 ease-in-out px-4 hover:text-dark rounded-lg py-2'
+					>Reservar</a
+				>
+			</div>
+		</div>
+		<!-- Desktop Menu -->
+		<div class='hidden md:flex justify-between h-20 items-center p-4'>
+			<h2 class='logo-text text-2xl'>Room 41</h2>
+			<div class='flex gap-x-16'>
+				<a
+					href=''
+					class='hover:bg-gray-50 transition-colors duration-300 ease-in-out px-4 hover:text-dark rounded-lg py-2'
+					>Nosotros</a
+				>
+				<a
+					href=''
+					class='hover:bg-gray-50 transition-colors duration-300 ease-in-out px-4 hover:text-dark rounded-lg py-2'
+					>Eventos</a
+				>
+				<a
+					href=''
+					class='hover:bg-gray-50 transition-colors duration-300 ease-in-out px-4 hover:text-dark rounded-lg py-2'
+					>Menú</a
+				>
+				<a
+					href=''
+					class='hover:bg-gray-50 transition-colors duration-300 ease-in-out px-4 hover:text-dark rounded-lg py-2'
+					>Contacto</a
+				>
+			</div>
+			<a
+				href=''
+				class='hover:bg-gray-50 bg-accent text-dark transition-colors duration-300 ease-in-out px-4 hover:text-dark rounded-lg py-2'
+				>Reservar</a
+			>
+		</div>
+	</div>
+</div>
+
+<script src='../scripts/navbar.js'></script>

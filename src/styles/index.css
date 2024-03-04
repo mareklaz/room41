@@ -22,6 +22,10 @@
 	background-color: #fbd784;
 }
 
+.mobile-menu {
+	z-index: 9999;
+}
+
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 }

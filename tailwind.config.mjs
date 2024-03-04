@@ -13,5 +13,5 @@ export default {
 			},
 		},
 	},
-	plugins: ['tailwindcss-animated'],
+	plugins: ['prettier-plugin-tailwind', 'tailwindcss-animated'],
 };
